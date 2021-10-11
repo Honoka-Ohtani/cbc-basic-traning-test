@@ -51,6 +51,22 @@ a{
     background: url("images/top_kv.jpg") center/cover no-repeat;
     font:nomal 24px/1.8 sans-serif;
     padding-left: 10%;
+
+    /* 親要素にrelative */
+    /* position: relative; */
+}
+
+.main_kv__messsage {
+    /* 子要素にabsoluteで位置調整 */
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    /* 基準点を真ん中にずらす */
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 2px;
 }
 .main_about{
     width:85%;
